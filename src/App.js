@@ -1,8 +1,14 @@
 import React from 'react'
+import CardList from './containers/CardList';
+import Select from './containers/Select';
+import './reset.scss'
 
 function App() {
     return (
-        <div>我是APP</div>
+        <>
+            <Select/>
+            <CardList/>
+        </>
     )
 }
 
